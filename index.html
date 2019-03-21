@@ -1,0 +1,260 @@
+<!DOCTYPE html lang="ru">
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Be a boss</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/Styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    
+        <!-- Header -->
+        <Header class="container container-header">
+            <div class="header-logo">
+                <img src="./Images/logo.png" alt="logo">
+            </div>
+        </Header>
+        <!-- Header -->
+
+        <!-- Main content -->
+        <div class="container cont-bg">
+            <article>
+                <section class="head-s">
+
+                    <!-- Background Img -->
+                    <div class="Head-Background-img"></div>
+                    <!-- Background Img -->
+
+                    <!-- Text on Img -->
+                    <div class="head-section-label">
+                        <p class="head-section-label-text-1">Поставь ссылку на БИБОСС</p>
+                        <p class="head-section-label-text-2"> <b>Заработай баллы!</b> </p>
+                        <div class="head-section-img">
+                            <img src="./Images/mac.png" height="500px" alt="mac">
+                            <a class="head-section-link" href="#">Франшиза Dunkin` Donuts на БИБОСС</a>
+                        </div>
+                    </div>
+                    <!-- Text on Img -->
+                </section>
+
+                <!-- Text-block -->
+                <section>              
+                    <p class="main-text"> БИБОСС дает возможность получить бесплатные баллы - нужно лишь разместить
+                        на сайте компании любую из ссылок:</p>
+                    <ul class="main-text-ul ">
+                        <li>Текстовая ссылка «Франшиза <span class="text-gray">[Название]</span> на БИБОСС» </li>
+                        <li>Текстовая ссылка «Наша франшиза на БИБОСС»</li>
+                        <li>Кнопка "Нравится франшиза" + счетчик популярности</li>
+                    </ul>
+                </section>
+
+                <section class="section-question">
+                    <p>
+                        Зачем нужны <a href="#">баллы</a>?
+                    </p>
+                    <h4>
+                        Больше баллов — выше позиция в выдаче категорий
+                    </h4>
+                </section>
+
+                <section class="grid">
+                    <div class="rules">
+                        <h4 class="grid-header-rules">
+                            Правила размещения ссылки
+                        </h4>
+                        <ul class="grid-rules-ul ">
+                            <li>Ссылка должна быть индексируемой
+                                (без тегов &ltnoindex&gt и &ltnofollow&gt),
+                            </li>
+                            <li>Ссылка должна быть читаемой, не скрытой от
+                                глаз посетителя сайта,
+                            </li>
+                            <li>Ссылка должна быть размещена на странице
+                                сайта, посвященной франчайзингу,
+                            </li>
+                            <li>
+                                При размещении ссылок на другие порталы о франчайзинге
+                                - баллы обнуляются.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cost">
+                        <h4 class="grid-header-cost">
+                            Стоимость ссылки
+                        </h4>
+                        <div>
+                            <b class="grid-bold-text">200 баллов</b> </br>
+                            ТиЦ Вашего сайта от 10
+                        </div>
+                        <div>
+                            <b class="grid-bold-text">50 баллов</b> </br>
+                            ТиЦ Вашего сайта от 0 до 10
+                        </div>
+                    </div>
+                </section>
+                <!-- Text-block -->
+
+                <!-- Forms -->
+                <section class="section-form">
+                    <!-- 1 -->
+                    <form class="grid-form" action="index.html" method="post">
+                        <h4 class="form-h4">Получить ссылку</h4>
+                        <div class="grid-form-block">
+                            <div class="label">
+                                <p class="label-text"> Ваше имя </p>
+                                <p class="label-text"> Номер телефона</p>
+                                <p class="label-text"> Название франшизы</p>
+                            </div>
+                            <div class="input">
+                                <p>
+                                    <input oninput="activate()" id="input1" type="text" class="form-control"
+                                        placeholder="Представьтесь, пожалуйста">
+                                </p>
+                                <p>
+                                    <input oninput="activate()" id="input2" class="form-control" id="phone" type="text"
+                                        name="phone" value="" placeholder="Для начисления баллов и связи с Вами" />
+                                </p>
+                                <p>
+                                    <input oninput="activate()" id="input3" list="companies" class="form-control"
+                                        placeholder="Например, Subway">
+                                    <datalist id="companies">
+                                        <option value="Проворный ткачик"></option>
+                                        <option value="ПРОФИ-СПОРТ"></option>
+                                        <option value="Проспект"></option>
+                                        <option value="Просто Чудо"></option>
+                                        <option value="Прокат Пони+"></option>
+                                    </datalist>
+                                </p>
+                                <p> <button type="button" id="success" class="btn btn-success disabled btn-mg">Получить
+                                        ссылку</button>
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                    <br>
+                    <!-- 2 -->
+                    <form class="grid-form" action="index.html" method="post">
+                        <h4 class="form-h4">Получить ссылку</h4>
+                        <div class="grid-form-block">
+                            <div class="label">
+                                <p class="label-text"> Ваше имя </p>
+                                <p class="label-text"> Номер телефона</p>
+                                <p class="label-text"> Название франшизы</p>
+                            </div>
+                            <div class="input">
+                                <p>
+                                    <input oninput="activate1()" id="input4" type="text" class="form-control"
+                                        placeholder="Представьтесь, пожалуйста">
+                                </p>
+                                <p>
+                                    <input oninput="activate1()" id="input5" class="form-control" id="phone" type="text"
+                                        name="phone" value="" placeholder="Для начисления баллов и связи с Вами" />
+                                </p>
+                                <p>
+                                    <input oninput="activate1()" id="input6" list="companies" class="form-control"
+                                        placeholder="Например, Subway">
+                                    <datalist id="companies">
+                                        <option value="Проворный ткачик"></option>
+                                        <option value="ПРОФИ-СПОРТ"></option>
+                                        <option value="Проспект"></option>
+                                        <option value="Просто Чудо"></option>
+                                        <option value="Прокат Пони+"></option>
+                                    </datalist>
+                                </p>
+                                <p> <button id="success1" type="button" class="btn btn-success disabled btn-mg">Получить
+                                        ссылку</button>
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                    <br>
+                    <!-- 3 -->
+                    <div class="space">
+                    </div>
+                    <form class="grid-form" action="index.html" method="post">
+                        <h4 class="form-h4">Получить ссылку</h4>
+                        <div class="grid-form-block">
+                            <div class="label">
+                                <p class="label-text"> Ваше имя </p>
+                                <p class="label-text"> Номер телефона</p>
+                                <p class="label-text"> Название франшизы</p>
+                            </div>
+                            <div class="input">
+                                <p>
+                                    <input oninput="activate2()" id="input7" type="text" class="form-control"
+                                        placeholder="Представьтесь, пожалуйста">
+                                </p>
+                                <p>
+                                    <input oninput="activate2()" id="input8" class="form-control" id="phone" type="text"
+                                        name="phone" value="" placeholder="Для начисления баллов и связи с Вами" />
+                                </p>
+                                <label id="error" class="error">Укажите правильный телефон</label>
+                                <p>
+                                    <input oninput="activate2()" id="input9" list="companies" class="form-control"
+                                        placeholder="Например, Subway">
+                                    <datalist id="companies">
+                                        <option value="Проворный ткачик"></option>
+                                        <option value="ПРОФИ-СПОРТ"></option>
+                                        <option value="Проспект"></option>
+                                        <option value="Просто Чудо"></option>
+                                        <option value="Прокат Пони+"></option>
+                                    </datalist>
+                                </p>
+                                <p> <button id="success2" onclick="check()" type="button"
+                                        class="btn btn-success disabled btn-mg">Получить ссылку</button>
+                                </p>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Text-block (footer) -->
+                    <div class="foot-text">
+                        <b>Это еще не все...</b> Вы можете заработать дополнительные баллы,
+                        если разместите на своём сайте новость, интервью или статью БИБОСС
+                        о Вашей компании с активной ссылкой! 50 баллов за активную ссылку на новость!
+                    </div>
+                    <!-- Text-block (footer) -->
+
+                </section>
+                <!-- Forms -->
+
+            </article>
+        </div>
+        <!-- Main content -->
+
+    <!-- Footer -->
+    <footer class="footer-hr">
+        <div class="container">
+            <div class="row py-4 ">
+                <div class="col-md-6">
+                    <img src="./Images/logo-footer.jpg" alt="logo-footer">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.inputmask.js"></script>
+        <script src="js/Script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
